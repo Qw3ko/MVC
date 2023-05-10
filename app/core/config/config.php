@@ -9,4 +9,4 @@ define('DATA', APP. 'data' . DIRECTORY_SEPARATOR);
 define('MODEL', APP. 'models' . DIRECTORY_SEPARATOR);
 define('VIEW', APP. 'views' . DIRECTORY_SEPARATOR);
 define('CONTROLLER', APP. 'controllers' . DIRECTORY_SEPARATOR);
-define('LAYOUT', APP. 'layout' . DIRECTORY_SEPARATOR);
+define('LAYOUT', VIEW. 'layout' . DIRECTORY_SEPARATOR);

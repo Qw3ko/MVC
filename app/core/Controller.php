@@ -1,13 +1,11 @@
 <?php
 
-namespace App\Core;
+namespace  App\core;
 
-use App\core\View;
-
-interface IController{
+interface IController
+{
     public function index();
 }
-
 class Controller implements IController
 {
     protected $view;
@@ -17,7 +15,9 @@ class Controller implements IController
         $this->view = new View();
     }
 
-    public function index(){
+    public function index()
+    {
 
     }
+
 }
